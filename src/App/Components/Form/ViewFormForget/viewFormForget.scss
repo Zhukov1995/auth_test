@@ -1,0 +1,65 @@
+form {
+    .form__forget__title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #989898;
+        text-align: center;
+        margin-bottom: 47px;
+    }
+    .form__item {
+        width: 323px;
+        display: flex;
+        flex-flow: column;
+        margin: 0 auto;
+        margin-bottom: 19px;
+        label {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 19px;
+            color: #10100F;
+        }
+        input {
+            width: 100%;
+            height: 32px;
+            border: 1px solid #E5E5E5;
+            border-radius: 5px;
+            padding: 6px 13px;
+        }
+        input:focus {
+            border: 1px solid #000000;
+        }
+    }
+    .form__forget {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #F6B52E;
+        text-align: end;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+    .form__button {
+        width: 323px;
+        height: 44px;
+        background: #F2B705;
+        border-radius: 5px;
+        border: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 51px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}

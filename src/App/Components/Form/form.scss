@@ -1,0 +1,36 @@
+.form__wrapper {
+    transition: all 2s;
+    width: 360px;
+    height: 768.38px;
+    margin: 0 auto;
+    .form__wrapper__crane {
+        display: block;
+        margin: 0 auto;
+    }
+    .form__subwrapper {
+        width: 343px;
+        height: 504px;
+        margin: 0 auto;
+        box-shadow: -10px 7px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        background-color: white;
+        .form__subwrapper__logo {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 42px;
+        } 
+    }
+}
+
+.rotate {
+    transform: rotateY(360deg);
+    transition: 1.5s;
+}
+
+.rotate_back {
+    transform: rotateY(-360deg);
+    transition: 1.5s;
+}
+
+
+
